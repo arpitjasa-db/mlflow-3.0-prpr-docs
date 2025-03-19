@@ -13,7 +13,7 @@
 # COMMAND ----------
 
 import mlflow
-from langchain_databricks import ChatDatabricks
+from databricks_langchain import ChatDatabricks
 from langchain_core.prompts import ChatPromptTemplate
 
 # Define the chain
